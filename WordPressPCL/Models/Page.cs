@@ -159,6 +159,20 @@ namespace WordPressPCL.Models
         /// </remarks>
         [JsonProperty("ping_status")]
         public OpenStatus PingStatus { get; set; }
+        
+        /// <summary>
+        /// The terms assigned to the object in the category taxonomy.
+        /// </summary>
+        /// <remarks>Context: view, edit</remarks>
+        [JsonProperty("categories", DefaultValueHandling = DefaultValueHandling.Ignore)]
+        public int[] Categories { get; set; }
+
+        /// <summary>
+        /// The terms assigned to the object in the post_tag taxonomy.
+        /// </summary>
+        /// <remarks>Context: view, edit</remarks>
+        [JsonProperty("tags", DefaultValueHandling = DefaultValueHandling.Ignore)]
+        public int[] Tags { get; set; }
 
         /// <summary>
         /// The theme file to use to display the object.
