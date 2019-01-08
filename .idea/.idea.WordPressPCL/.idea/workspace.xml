@@ -1,15 +1,330 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9d12c0cf-6032-47f2-8a06-c2a3600f7785" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WordPressPCL/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WordPressPCL/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WordPressPCL/WordPressPCL.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WordPressPCL/WordPressPCL.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WordPressPCL/Models/Page.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1478">
+              <caret line="209" column="1" selection-start-line="209" selection-start-column="1" selection-end-line="209" selection-end-column="1" />
+              <folding>
+                <marker date="1546912031808" expanded="false" signature="6:98" ph="..." />
+                <marker date="1546912031808" expanded="true" signature="129:6948" ph="{...}" />
+                <marker date="1546912031808" expanded="true" signature="136:219" ph="/// Type represents Page Entity of WP REST API ... " />
+                <marker date="1546912031808" expanded="true" signature="248:6946" ph="{...}" />
+                <marker date="1546912031808" expanded="true" signature="263:428" ph="/// The date the object was published, in the site’s timezone. ... " />
+                <marker date="1546912031808" expanded="true" signature="564:706" ph="/// The date the object was published, as GMT. ... " />
+                <marker date="1546912031808" expanded="true" signature="797:991" ph="/// The globally unique identifier for the object. ... " />
+                <marker date="1546912031808" expanded="true" signature="1123:1333" ph="/// The date the object was last modified, in the site’s timezone. ... " />
+                <marker date="1546912031808" expanded="true" signature="1477:1671" ph="/// The date the object was last modified, as GMT. ... " />
+                <marker date="1546912031808" expanded="true" signature="1822:1990" ph="/// An alphanumeric identifier for the object unique to its type. ... " />
+                <marker date="1546912031808" expanded="true" signature="2072:2283" ph="/// A named status for the object. ... " />
+                <marker date="1546912031808" expanded="true" signature="2369:2552" ph="/// Type of Post for the object. ... " />
+                <marker date="1546912031808" expanded="true" signature="2634:2807" ph="/// URL to the object. ... " />
+                <marker date="1546912031808" expanded="true" signature="2889:3021" ph="/// The title for the object. ... " />
+                <marker date="1546912031808" expanded="true" signature="3104:3231" ph="/// The content for the object. ... " />
+                <marker date="1546912031808" expanded="true" signature="3320:3454" ph="/// The excerpt for the object. ... " />
+                <marker date="1546912031808" expanded="true" signature="3543:3686" ph="/// The id for the author of the object. ... " />
+                <marker date="1546912031808" expanded="true" signature="3821:3965" ph="/// The id of the featured media for the object. ... " />
+                <marker date="1546912031808" expanded="true" signature="4063:4199" ph="/// The id for the parent of the object. ... " />
+                <marker date="1546912031808" expanded="true" signature="4380:4544" ph="/// The order of the object in relation to other object of its type. ... " />
+                <marker date="1546912031808" expanded="true" signature="4634:4840" ph="/// Whether or not comments are open on the object. ... " />
+                <marker date="1546912031808" expanded="true" signature="4945:5144" ph="/// Whether or not the object can be pinged. ... " />
+                <marker date="1546912031808" expanded="true" signature="5251:5409" ph="/// The terms assigned to the object in the category taxonomy. ... " />
+                <marker date="1546912031808" expanded="true" signature="5554:5712" ph="/// The terms assigned to the object in the post_tag taxonomy. ... " />
+                <marker date="1546912031808" expanded="true" signature="5845:5989" ph="/// The theme file to use to display the object. ... " />
+                <marker date="1546912031808" expanded="true" signature="6131:6243" ph="/// Meta fields. ... " />
+                <marker date="1546912031808" expanded="true" signature="6378:6453" ph="/// Links to related resources ... " />
+                <marker date="1546912031808" expanded="true" signature="6589:6679" ph="/// Embedded information like featured images ... " />
+                <marker date="1546912031808" expanded="true" signature="6824:6898" ph="/// Parameterless constructor ... " />
+                <marker date="1546912031808" expanded="true" signature="6920:6940" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WordPressPCL.Tests.Hosted/Utility/ApiCredentials.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <marker date="1546912061493" expanded="true" signature="43:262" ph="{...}" />
+                <marker date="1546912061493" expanded="true" signature="74:260" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WordPressPCL.Tests.Selfhosted/Utility/ApiCredentials.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <marker date="1546912083929" expanded="true" signature="47:266" ph="{...}" />
+                <marker date="1546912083929" expanded="true" signature="78:264" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WordPressPCL.Tests.Hosted/Utility/ApiCredentials-sample.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="8" column="5" selection-end-line="10" />
+              <folding>
+                <marker date="1546911947046" expanded="true" signature="43:364" ph="{...}" />
+                <marker date="1546911947046" expanded="true" signature="83:362" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/WordPressPCL.Tests.Hosted/Utility/ApiCredentials.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WordPressPCL.Tests.Selfhosted/Utility/ApiCredentials.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WordPressPCL/Models/Page.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WordPressPCL.Tests.Hosted/Utility/ApiCredentials-sample.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/WordPressPCL/Models/Page.cs" />
+        <option value="$PROJECT_DIR$/WordPressPCL.Tests.Hosted/Utility/ApiCredentials.cs" />
+        <option value="$PROJECT_DIR$/WordPressPCL.Tests.Selfhosted/Utility/ApiCredentials.cs" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1252" />
-    <option name="y" value="-23" />
+    <option name="x" value="1251" />
+    <option name="y" value="-24" />
     <option name="width" value="3860" />
     <option name="height" value="2130" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="WordPressPCL" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="WordPressPCL" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="WordPressPCL" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="WordPressPCL" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="WordPressPCL.Tests.Hosted" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="WordPressPCL" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="WordPressPCL.Tests.Hosted" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Utility" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="WordPressPCL" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="WordPressPCL.Tests.Selfhosted" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="WordPressPCL" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="WordPressPCL.Tests.Selfhosted" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Utility" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d12c0cf-6032-47f2-8a06-c2a3600f7785" name="Default Changelist" comment="" />
+      <created>1546911960758</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546911960758</updated>
+      <workItem from="1546911962040" duration="321000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="321000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="3086" height="1702" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13251817" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Performance Profiler" />
+      <window_info anchor="bottom" id="Build" visible="true" weight="0.3299363" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/WordPressPCL/Models/Page.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1478">
+          <caret line="209" column="1" selection-start-line="209" selection-start-column="1" selection-end-line="209" selection-end-column="1" />
+          <folding>
+            <marker date="1546912031808" expanded="false" signature="6:98" ph="..." />
+            <marker date="1546912031808" expanded="true" signature="129:6948" ph="{...}" />
+            <marker date="1546912031808" expanded="true" signature="136:219" ph="/// Type represents Page Entity of WP REST API ... " />
+            <marker date="1546912031808" expanded="true" signature="248:6946" ph="{...}" />
+            <marker date="1546912031808" expanded="true" signature="263:428" ph="/// The date the object was published, in the site’s timezone. ... " />
+            <marker date="1546912031808" expanded="true" signature="564:706" ph="/// The date the object was published, as GMT. ... " />
+            <marker date="1546912031808" expanded="true" signature="797:991" ph="/// The globally unique identifier for the object. ... " />
+            <marker date="1546912031808" expanded="true" signature="1123:1333" ph="/// The date the object was last modified, in the site’s timezone. ... " />
+            <marker date="1546912031808" expanded="true" signature="1477:1671" ph="/// The date the object was last modified, as GMT. ... " />
+            <marker date="1546912031808" expanded="true" signature="1822:1990" ph="/// An alphanumeric identifier for the object unique to its type. ... " />
+            <marker date="1546912031808" expanded="true" signature="2072:2283" ph="/// A named status for the object. ... " />
+            <marker date="1546912031808" expanded="true" signature="2369:2552" ph="/// Type of Post for the object. ... " />
+            <marker date="1546912031808" expanded="true" signature="2634:2807" ph="/// URL to the object. ... " />
+            <marker date="1546912031808" expanded="true" signature="2889:3021" ph="/// The title for the object. ... " />
+            <marker date="1546912031808" expanded="true" signature="3104:3231" ph="/// The content for the object. ... " />
+            <marker date="1546912031808" expanded="true" signature="3320:3454" ph="/// The excerpt for the object. ... " />
+            <marker date="1546912031808" expanded="true" signature="3543:3686" ph="/// The id for the author of the object. ... " />
+            <marker date="1546912031808" expanded="true" signature="3821:3965" ph="/// The id of the featured media for the object. ... " />
+            <marker date="1546912031808" expanded="true" signature="4063:4199" ph="/// The id for the parent of the object. ... " />
+            <marker date="1546912031808" expanded="true" signature="4380:4544" ph="/// The order of the object in relation to other object of its type. ... " />
+            <marker date="1546912031808" expanded="true" signature="4634:4840" ph="/// Whether or not comments are open on the object. ... " />
+            <marker date="1546912031808" expanded="true" signature="4945:5144" ph="/// Whether or not the object can be pinged. ... " />
+            <marker date="1546912031808" expanded="true" signature="5251:5409" ph="/// The terms assigned to the object in the category taxonomy. ... " />
+            <marker date="1546912031808" expanded="true" signature="5554:5712" ph="/// The terms assigned to the object in the post_tag taxonomy. ... " />
+            <marker date="1546912031808" expanded="true" signature="5845:5989" ph="/// The theme file to use to display the object. ... " />
+            <marker date="1546912031808" expanded="true" signature="6131:6243" ph="/// Meta fields. ... " />
+            <marker date="1546912031808" expanded="true" signature="6378:6453" ph="/// Links to related resources ... " />
+            <marker date="1546912031808" expanded="true" signature="6589:6679" ph="/// Embedded information like featured images ... " />
+            <marker date="1546912031808" expanded="true" signature="6824:6898" ph="/// Parameterless constructor ... " />
+            <marker date="1546912031808" expanded="true" signature="6920:6940" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordPressPCL.Tests.Hosted/Utility/ApiCredentials-sample.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="5" selection-end-line="10" />
+          <folding>
+            <marker date="1546911947046" expanded="true" signature="43:364" ph="{...}" />
+            <marker date="1546911947046" expanded="true" signature="83:362" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordPressPCL.Tests.Hosted/Utility/ApiCredentials.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <marker date="1546912061493" expanded="true" signature="43:262" ph="{...}" />
+            <marker date="1546912061493" expanded="true" signature="74:260" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordPressPCL.Tests.Selfhosted/Utility/ApiCredentials.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <marker date="1546912083929" expanded="true" signature="47:266" ph="{...}" />
+            <marker date="1546912083929" expanded="true" signature="78:264" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

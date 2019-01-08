@@ -430,7 +430,14 @@
             <summary>
             Constructor
             </summary>
-         aram name="embed">include embed info</param>
+            <param name="httpHelper">reference to HttpHelper class for interaction with HTTP</param>
+            <param name="defaultPath">path to site, EX. http://demo.com/wp-json/ </param>
+        </member>
+        <member name="M:WordPressPCL.Client.PostStatuses.Get(System.Boolean,System.Boolean)">
+            <summary>
+            Get latest Post Statuses
+            </summary>
+            <param name="embed">include embed info</param>
             <param name="useAuth">Send request with authenication header</param>
             <returns>Entity by Id</returns>
         </member>
@@ -911,17 +918,6 @@
         </member>
         <member name="P:WordPressPCL.Models.Comment.Status">
             <summary>
-      /summary>
-            <remarks>Context: view, edit, embed</remarks>
-        </member>
-        <member name="P:WordPressPCL.Models.Comment.Link">
-            <summary>
-            URL to the object.
-            </summary>
-            <remarks>Context: view, edit, embed</remarks>
-        </member>
-        <member name="P:WordPressPCL.Models.Comment.Status">
-            <summary>
             State of the object.
             </summary>
             <remarks>Context: view, edit</remarks>
@@ -1152,7 +1148,20 @@
         </member>
         <member name="F:WordPressPCL.Models.UsersOrderBy.Name">
             <summary>
-            Order By NamPCL.Models.UsersOrderBy.RegisteredDate">
+            Order By Name
+            </summary>
+        </member>
+        <member name="F:WordPressPCL.Models.UsersOrderBy.Id">
+            <summary>
+            Order By Id
+            </summary>
+        </member>
+        <member name="F:WordPressPCL.Models.UsersOrderBy.Include">
+            <summary>
+            Order By Include
+            </summary>
+        </member>
+        <member name="F:WordPressPCL.Models.UsersOrderBy.RegisteredDate">
             <summary>
             Order By Registered Date
             </summary>
@@ -1506,20 +1515,6 @@
             <summary>
             Focal Length
             </summary>
-   ">
-            <summary>
-            Created Date
-            </summary>
-        </member>
-        <member name="P:WordPressPCL.Models.ImageMeta.Copyright">
-            <summary>
-            Copyright
-            </summary>
-        </member>
-        <member name="P:WordPressPCL.Models.ImageMeta.FocalLength">
-            <summary>
-            Focal Length
-            </summary>
         </member>
         <member name="P:WordPressPCL.Models.ImageMeta.Iso">
             <summary>
@@ -1636,7 +1631,17 @@
         </member>
         <member name="P:WordPressPCL.Models.MediaDetails.ImageMeta">
             <summary>
-            Me
+            Meta info of Image
+            </summary>
+        </member>
+        <member name="T:WordPressPCL.Models.MediaItem">
+            <summary>
+            Type represent Media Entity of WP REST API
+            </summary>
+        </member>
+        <member name="P:WordPressPCL.Models.MediaItem.Date">
+            <summary>
+            The date the object was published, in the site’s timezone.
             </summary>
             <remarks>Context: view, edit, embed</remarks>
         </member>
@@ -1728,16 +1733,6 @@
         </member>
         <member name="P:WordPressPCL.Models.MediaItem.Caption">
             <summary>
-            The caption for the resource.
-            <see cref="T:WordPressPCL.Models.Caption"/>
-            </summary>
-            <remarks>Context: view, edit</remarks>
-        </member>
-        <member name="P:WordPressPCL.Models.MediaItem.Description">
-            <summary>
-            The description for the resource.
-            </summary>
-            <remarks>Context: viewry>
             The caption for the resource.
             <see cref="T:WordPressPCL.Models.Caption"/>
             </summary>
@@ -1848,7 +1843,19 @@
         </member>
         <member name="P:WordPressPCL.Models.Page.Guid">
             <summary>
-            The globally      Read only
+            The globally unique identifier for the object.
+            </summary>
+            <remarks>
+            Read only
+            Context: view, edit
+            </remarks>
+        </member>
+        <member name="P:WordPressPCL.Models.Page.Modified">
+            <summary>
+            The date the object was last modified, in the site’s timezone.
+            </summary>
+            <remarks>
+            Read only
             Context: view, edit
             </remarks>
         </member>
@@ -3457,15 +3464,6 @@
         </member>
         <member name="P:WordPressPCL.Utility.PagesQueryBuilder.ParentsExclude">
             <summary>
-            Limit resul, include, title, slug, menu_order</remarks>
-        </member>
-        <member name="P:WordPressPCL.Utility.PagesQueryBuilder.Parents">
-            <summary>
-            Limit result set to those of particular parent ids.
-            </summary>
-        </member>
-        <member name="P:WordPressPCL.Utility.PagesQueryBuilder.ParentsExclude">
-            <summary>
             Limit result set to all items except those of a particular parent id.
             </summary>
         </member>
@@ -3479,6 +3477,26 @@
             Limit result set to posts assigned one or more statuses.
             </summary>
             <remarks>Default: publish</remarks>
+        </member>
+        <member name="P:WordPressPCL.Utility.PagesQueryBuilder.Categories">
+            <summary>
+            Limit result set to all items that have the specified term assigned in the categories taxonomy.
+            </summary>
+        </member>
+        <member name="P:WordPressPCL.Utility.PagesQueryBuilder.CategoriesExclude">
+            <summary>
+            Limit result set to all items except those that have the specified term assigned in the categories taxonomy.
+            </summary>
+        </member>
+        <member name="P:WordPressPCL.Utility.PagesQueryBuilder.Tags">
+            <summary>
+            Limit result set to all items that have the specified term assigned in the tags taxonomy.
+            </summary>
+        </member>
+        <member name="P:WordPressPCL.Utility.PagesQueryBuilder.TagsExclude">
+            <summary>
+            Limit result set to all items except those that have the specified term assigned in the tags taxonomy.
+            </summary>
         </member>
         <member name="P:WordPressPCL.Utility.PagesQueryBuilder.Filter">
             <summary>
@@ -3652,7 +3670,17 @@
             <summary>
             Maximum number of items to be returned in result set.
             </summary>
-            <remarks>Default: >
+            <remarks>Default: 10</remarks>
+        </member>
+        <member name="P:WordPressPCL.Utility.TagsQueryBuilder.Search">
+            <summary>
+            Limit results to those matching a string.
+            </summary>
+        </member>
+        <member name="P:WordPressPCL.Utility.TagsQueryBuilder.Exclude">
+            <summary>
+            Ensure result set excludes specific IDs.
+            </summary>
         </member>
         <member name="P:WordPressPCL.Utility.TagsQueryBuilder.Include">
             <summary>
@@ -3893,20 +3921,6 @@
             <returns>Result of checking</returns>
         </member>
         <member name="M:WordPressPCL.WordPressClient.SetJWToken(System.String)">
-            <summary>
-            Sets an exisitng JWToken
-            </summary>
-            <param name="token"></param>
-        </member>
-        <member name="M:WordPressPCL.WordPressClient.GetToken">
-            <summary>
-            Gets the JWToken from the client
-            </summary>
-            <returns></returns>
-        </member>
-    </members>
-</doc>
-ystem.String)">
             <summary>
             Sets an exisitng JWToken
             </summary>

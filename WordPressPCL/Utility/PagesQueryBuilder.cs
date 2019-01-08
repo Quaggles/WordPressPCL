@@ -96,6 +96,26 @@ namespace WordPressPCL.Utility
         [QueryText("status")]
         public Status[] Statuses { get; set; }
         /// <summary>
+        /// Limit result set to all items that have the specified term assigned in the categories taxonomy.
+        /// </summary>
+        [QueryText("categories")]
+        public int[] Categories { get; set; }
+        /// <summary>
+        /// Limit result set to all items except those that have the specified term assigned in the categories taxonomy.
+        /// </summary>
+        [QueryText("categories_exclude")]
+        public int[] CategoriesExclude { get; set; }
+        /// <summary>
+        /// Limit result set to all items that have the specified term assigned in the tags taxonomy.
+        /// </summary>
+        [QueryText("tags")]
+        public int[] Tags { get; set; }
+        /// <summary>
+        /// Limit result set to all items except those that have the specified term assigned in the tags taxonomy.
+        /// </summary>
+        [QueryText("tags_exclude")]
+        public int[] TagsExclude { get; set; }
+        /// <summary>
         /// Use WP Query arguments to modify the response; private query vars require appropriate authorization.
         /// </summary>
         [QueryText("filter")]
